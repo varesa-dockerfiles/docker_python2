@@ -7,7 +7,7 @@ EXPOSE 22
 
 # Install packages
 RUN yum update -y
-RUN yum install -y gcc git libffi-devel make openssh-server openssl-devel python-setuptools sqlite-devel wget
+RUN yum install -y bzip2-devel gcc git libffi-devel make openssh-server openssl-devel python-setuptools sqlite-devel wget
 
 # Install Python2
 RUN mkdir /src/
